@@ -881,6 +881,8 @@ ul {
 
 .backdrop-input-contacts:focus + .backdrop-icon{
   fill:var(--accent-color);
+  transition: fill 250ms;
+  transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
 }
 
 .backdrop-input-btn{
