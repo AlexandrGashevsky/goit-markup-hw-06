@@ -875,8 +875,12 @@ ul {
   border: 1px solid #2196F3;
   box-sizing: border-box;
   border-radius: 4px;
-  transition: fill 250ms border 250ms;
+  transition: border 250ms;
   transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+
+.backdrop-input-contacts:focus + .backdrop-icon{
+  fill:var(--accent-color);
 }
 
 .backdrop-input-btn{
